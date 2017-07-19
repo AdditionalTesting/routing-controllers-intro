@@ -7,4 +7,8 @@ class PagesController < ApplicationController
   def about
     render :about
   end
+
+  def contest
+    render :contest
+  end
 end
